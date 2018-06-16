@@ -44,8 +44,8 @@ Code organization
 =================
 
 
-The repository contains three main subfolders "AlexNet," "VGGNet,"  and "TernausNet." In each subfolder, you will find code related to the each corresponding architecture.  On this layer, you will 
-also find a python notebook, 
+The repository contains three main subfolders "AlexNet," "VGGNet,"  and "TernausNet." In each subfolder, you will find code related to the each corresponding architecture. 
+
 
 The AlexNet Folder contains the following items: 
 
