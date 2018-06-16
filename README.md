@@ -7,14 +7,35 @@ The repository is composed of implementations of VGG-net and AlexNet as well as 
 
 Requirements
 ============
-Install package 'imageio ' a s follow :
-$ pip install -- user imageio
+TensorFlow version 1.8.0 is required to run the AlexNet Notebooks. 
+Pytorch is required to run the VGGNet Notebooks. 
+Other package dependencies: 
+-h5py
+-numpy
+-os
+-cv2
+-Pillow
+-matplotlib
+-scipy
 
 
 Code organization
 =================
-demo . ipynb -- Run a demo of our code ( reproduce Figure 3 of our report )
-train . upyng -- Run the training of our model ( a s described in Section 2)
-code / backprop . py -- Module implementing backprop
-code / visu . py -- Module for visualizing our dataset
-assets / model . dat -- Our model trained a s described in Section 4
+The repository contains two main subfolders "AlexNet" and "VGGNet." In each subfolder, you will find code related to the each corresponding architecture. 
+
+The AlexNet Folder contains the following items: 
+
+AlexNet.m - An implementation of AlexNet in MatLab. 
+alexnet.py -  An implementation of AlexNet in Python using TensorFlow
+blvc_alexnet - Initial Weighs obtained from a pre-trained version of AlexNet on a different data set of pictures. 
+caffe_classes.py - The labels utilized for the data on the pre-trained version of AlexNet. 
+datagenerator.py -  A helper class used to input images into TensorFlow. 
+finetune.py - A finetuning script for the python version of AlexNet. 
+OriginalAlexNet.ipynb - Notebook utilized to train AlexNet from scratch. 
+PreTrainedAlexNet.ipynb - Notebook utilized to finetune AlexNet. 
+TrainingData - The output data during the loss evaluation of an epoch of AlexNet. ///
+
+The VGGNet Folder contains the following items:
+
+VGGnet_brainTum-2.ipynb - Python Notebook that implements the training of VGG along with a demo of plots. 
+CreateDataFolders2.ipynb - A tool to generate data folders to then feed into VGGNet.
