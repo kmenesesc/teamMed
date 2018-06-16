@@ -9,8 +9,12 @@ The repository is composed of implementations of VGG-net and AlexNet as well as 
 Requirements
 ============
 TensorFlow version 1.8.0 is required to run the AlexNet Notebooks. 
+
 Pytorch is required to run the VGGNet Notebooks. 
+
 Other package dependencies: 
+
+
 -h5py
 
 -numpy
