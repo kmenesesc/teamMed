@@ -73,14 +73,14 @@ PreTrainedAlexNet.ipynb - Notebook utilized to finetune AlexNet.
 TrainingData - The output data during the loss evaluation of an epoch of AlexNet. 
 
 
-
+----------------------------------------------------------------------
 Next, the VGGNet Folder contains the following items:
 
 VGGnet_brainTum-2.ipynb - Python Notebook that implements the training of VGG along with a demo of plots. 
 
 CreateDataFolders2.ipynb - A tool to generate data folders to then feed into VGGNet.
 
-
+-----------------------------------------------------------------------
 Lastly, the folder TernausNet includes the following: 
 
 Supporting Functions - Helping functions for image processing.
