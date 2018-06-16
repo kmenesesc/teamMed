@@ -8,6 +8,11 @@ The repository is composed of implementations of VGG-net and AlexNet as well as 
 
 Requirements
 ============
+
+Before running notebooks in the folder AlexNet, download the pretrained weights from http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/ titled "bvlc_alexnet.npy" and place them inside the AlexNet Folder.
+
+If running AlexNet notebooks, place the data set inside the AlexNet folder. If running VGGNet notebooks, place the data set inside the VGGNet folder. 
+
 TensorFlow version 1.8.0 is required to run the AlexNet Notebooks. 
 
 Pytorch is required to run the VGGNet Notebooks. 
@@ -32,10 +37,13 @@ Other package dependencies:
 
 Code organization
 =================
-The repository contains two main subfolders "AlexNet" and "VGGNet." In each subfolder, you will find code related to the each corresponding architecture. 
 
 
-The AlexNet Folder contains the following items: 
+The repository contains two main subfolders "AlexNet" and "VGGNet." In each subfolder, you will find code related to the each corresponding architecture.  On this layer, you will 
+also find a python notebook, "Demonstration.ipynb," which replicated AlexNet Plots. 
+
+
+Further, the AlexNet Folder contains the following items: 
 
 AlexNet.m - An implementation of AlexNet in MatLab. 
 
@@ -57,7 +65,7 @@ TrainingData - The output data during the loss evaluation of an epoch of AlexNet
 
 
 
-VGGNet Folder contains the following items:
+Lastly, the VGGNet Folder contains the following items:
 
 VGGnet_brainTum-2.ipynb - Python Notebook that implements the training of VGG along with a demo of plots. 
 
